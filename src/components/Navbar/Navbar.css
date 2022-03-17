@@ -1,0 +1,5 @@
+nav{display:block;}
+nav ul{display:flex; display:-webkit-flex; align-items: center;}
+nav ul li{height:100%;}
+nav ul li a{padding:0 30px; display:block;color: #fff; font-size:14px; height:60px; display:flex; display: -webkit-flex; align-items: center; justify-content: center; text-transform: uppercase;}
+nav ul li a:hover{}
