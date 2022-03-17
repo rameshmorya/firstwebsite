@@ -1,15 +1,16 @@
-import React from 'react';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import React from "react";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Pages from "./Pages";
 
-const App =()=> {
+const App = () => {
   return (
     <>
       <Header />
-      <Footer/>
-
+      <Pages />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default App;
