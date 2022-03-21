@@ -30,7 +30,7 @@ const Heroslider = () => {
             </div>
             <div className="cl6">
               <div className="coverImg">
-                <img src={cover} alt="" />
+                <img src={cover} alt="" className="img-responsive" />
               </div>
             </div>
           </div>
