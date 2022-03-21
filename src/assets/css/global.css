@@ -29,7 +29,7 @@ textarea{height:auto !important;}
 .btn-secondary{background:#fff;}
 .btn-secondary span{background:linear-gradient(-45deg,#cf11da,#3482fd);-webkit-background-clip:text;color:transparent}
 .btn-secondary:hover span{color:#fff}
-.headingBox{margin-bottom:30px; text-align:center;}
+.headingBox{padding:0 15px; margin-bottom:30px; text-align:center;}
 .headingBox em{font-size:36px;background:linear-gradient(-45deg,#cf11da,#3482fd);-webkit-background-clip:text;color:transparent}
 .headingBox h2{margin-top: 5px; font-size:28px;color:#323232;font-weight:600;text-transform:capitalize;line-height:36px;}
 .headingBox .separator{position:relative;width:160px;display:inline-block}
@@ -37,3 +37,13 @@ textarea{height:auto !important;}
 .headingBox .separator:before,.headingBox .separator:after{background:linear-gradient(-45deg,#cf11da,#3482fd)}
 .headingBox .separator:after{right:3px}
 .headingBox .separator:before{left:3px}
+
+@media screen and (max-width:1170px){
+.container{width:100%;}
+}
+
+@media screen and (max-width:540px){
+.cl4,.cl6{width:100%;}
+.btn{min-width:auto;}
+.headingBox h2{font-size: 22px;}
+}

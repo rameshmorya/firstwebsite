@@ -1,5 +1,5 @@
 .galleryBox{padding:50px 0; display:block; background:#fff;}
-.galleryTabBox{margin-bottom:40px; display:flex;display:-webkit-flex;align-items:center;justify-content: center;}
+.galleryTabBox{margin-bottom:40px;overflow:auto; display:flex;display:-webkit-flex;align-items:center;justify-content: center;}
 .galleryTab{padding:0 20px;font-size:14px;border-radius:8px; transition: .3s; height:36px; border:1px solid #333; background:#fff;display:flex;display:-webkit-flex;align-items:center;cursor: pointer;}
 .galleryTab ~ .galleryTab{margin-left:15px;}
 .galleryTab.active{background:#333;color:#fff;}
@@ -10,6 +10,12 @@
 .galleryItemBody{padding:10px; width: calc(100% - 135px);}
 .galleryItemHeading{font-size:16px; font-weight:600;color: #333;}
 .galleryItemPriceBox{display:flex;display:-webkit-flex;align-items:center;justify-content: space-between;}
+
+@media screen and (max-width:540px){
+.galleryTabBox{padding:0 15px 0 15px; margin:0 -15px 30px -15px; justify-content: flex-start;}
+.galleryGrid{grid-template-columns: repeat(1, 1fr);grid-gap:15px;}
+
+}
 
 
 

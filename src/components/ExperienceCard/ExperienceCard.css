@@ -7,3 +7,11 @@
 .yogaListBox.text-right{text-align:right}
 .yogaListBox.rightBox .yogaListBody{text-align: left;}
 .yogaListBox.rightBox .yogaList{flex-direction: row-reverse;}
+
+
+
+@media screen and (max-width:540px){
+.yogaListBox .yogaList{flex-direction: row-reverse;}
+.yogaList .yogaListBody{padding: 0; text-align: left;}
+.yogaList .icon{margin:0 15px 0 0;}
+}
